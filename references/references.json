@@ -1,0 +1,92 @@
+[
+  {
+    "name": "ScrollTide",
+    "url": "https://scrolltide.co",
+    "section": "scroll/3D/WebGL",
+    "note": "600+ design prompts with source for scroll-driven 3D sites",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "Navbar Gallery",
+    "url": "https://navbar.gallery",
+    "section": "navbar",
+    "note": "Curated navbar inspiration (static, dropdown, mega, sidebar, search)",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "Footer Design",
+    "url": "https://footer.design",
+    "section": "footer",
+    "note": "Curated premium footer gallery",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "CTA Gallery",
+    "url": "https://cta.gallery",
+    "section": "cta",
+    "note": "CTAs: buttons, forms, modals, pricing sections",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "Refero Styles",
+    "url": "https://styles.refero.design",
+    "section": "style",
+    "note": "Famous sites analysed as DESIGN.md for AI agents",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "Supahero",
+    "url": "https://supahero.io",
+    "section": "hero",
+    "note": "Curated hero section collection",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "3dicons",
+    "url": "https://3dicons.co",
+    "section": "icons",
+    "note": "1500+ open-source/free/premium 3D icons (check licence per icon pack)",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "Animmaster Lib",
+    "url": "https://animmasterlib.dev",
+    "section": "motion-components",
+    "note": "300+ pro scroll/mouse/transition/WebGL components (note: two m)",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "Aceternity UI",
+    "url": "https://ui.aceternity.com",
+    "section": "motion-components",
+    "note": "Modern React/Tailwind animated components, copy-paste",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  },
+  {
+    "name": "Skiper UI",
+    "url": "https://skiper-ui.com",
+    "section": "motion-components",
+    "note": "Uncommon shadcn-style components (image reveal, dynamic island)",
+    "verified_live": "2026-10-17",
+    "status": 200,
+    "terms": "Link only; not bundled. Respect each site's licence/terms; take inspiration, do not copy brand assets or paid content."
+  }
+]

@@ -1,0 +1,17 @@
+:root{--bg:#f7f8f5;--card:#fff;--ink:#1f2a24;--mut:#5c6b62;--line:#dfe5df;--acc:#2f6f4f;--acc2:#e8f1ea;--bad:#b3261e;--r:12px}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:20px 24px;border-bottom:1px solid var(--line);background:var(--card)}h1{margin:0;font-size:1.4rem}header p{margin:2px 0 0;color:var(--mut);font-size:.95rem}
+nav{padding:12px 24px}.tabs{display:flex;gap:8px}nav button{min-height:48px;min-width:48px;padding:8px 18px;border:1px solid var(--line);background:var(--card);border-radius:999px;cursor:pointer;font:inherit;color:var(--ink)}
+nav button[aria-selected=true]{background:var(--acc);color:#fff;border-color:var(--acc)}
+main{max-width:1000px;margin:0 auto;padding:0 24px 64px}section{display:none}section.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin:14px 0}
+input[type=text],textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff;color:var(--ink)}
+button.p{background:var(--acc);color:#fff;border:0;padding:12px 20px;border-radius:10px;font:inherit;cursor:pointer;min-height:44px}button.s{background:var(--acc2);color:var(--acc);border:1px solid var(--line);padding:8px 14px;border-radius:10px;font:inherit;cursor:pointer;min-height:44px}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #7fb69a;outline-offset:2px}
+pre{white-space:pre-wrap;word-break:break-word;background:#fbfcfa;border:1px solid var(--line);border-radius:10px;padding:12px;max-height:420px;overflow:auto;font-size:.85rem}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.row>input{flex:1;min-width:240px}
+.badge{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.8rem;background:var(--acc2);margin-right:6px}.crit{background:#fde4e1;color:var(--bad)}
+img.shot{max-width:100%;border:1px solid var(--line);border-radius:10px}.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.mut{color:var(--mut);font-size:.9rem}table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid var(--line);text-align:left;font-size:.9rem;vertical-align:top}
+#mem{max-height:520px}
+.ver{font-size:.7em}.filebtn{cursor:pointer;display:inline-block;padding:8px 14px;border:1px solid var(--line);border-radius:999px;min-height:48px;line-height:30px}

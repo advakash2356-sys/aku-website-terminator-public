@@ -1,0 +1,9 @@
+node_modules
+out/*
+!out/.gitkeep
+.tmp
+memory/MEMORY.private.md
+memory/runs.json
+*.tgz
+.env
+.env.*

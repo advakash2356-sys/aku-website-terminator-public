@@ -1,0 +1,5 @@
+# Aku self-scan ignore list (path prefixes)
+# Vendored third-party skills: dev-time prompt/tooling files, never loaded by the server. Their rules (e.g. a helper named eval()) are false positives.
+skills/
+# Defines the scan rules, so it contains the patterns it searches for (false positives)
+lib/codescan.js

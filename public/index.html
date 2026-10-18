@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aku, the Website Terminator</title>
+<meta name="description" content="Aku audits your website for security holes, accessibility and design problems, then writes a ready-to-paste fix prompt."><meta property="og:title" content="Aku, the Website Terminator"><meta property="og:description" content="Security, accessibility and design audits with a ready-to-paste fix prompt.">
+<link rel="stylesheet" href="/app.css"></head><body>
+<header><h1>Aku, the Website Terminator <span class="mut ver">PUBLIC VERSION</span></h1><p>Terminates malware, loopholes, vulnerabilities and bad design — then redesigns and fine-tunes.</p></header>
+<nav aria-label="Sections"><div role="tablist" class="tabs"><button role="tab" aria-selected="true" data-t="audit">Audit</button><button role="tab" aria-selected="false" data-t="history">History</button><button role="tab" aria-selected="false" data-t="memory">Memory</button><button role="tab" aria-selected="false" data-t="prefs" hidden>Preferences</button></div></nav>
+<main>
+<section id="audit" class="on">
+ <div class="card"><label for="target"><strong>Live URL or GitHub repo URL</strong></label>
+  <p class="mut">Live: https://my-site.vercel.app → full audit. GitHub: https://github.com/owner/repo → shallow clone, code scan, run locally, audit (temp files cleaned up).</p>
+  <div class="row"><input id="target" type="text" placeholder="https://my-site.vercel.app  or  https://github.com/owner/repo" autocomplete="off"><button class="p" id="go">Terminate →</button></div></div>
+ <div id="status" class="card" hidden><strong id="st"></strong><pre id="log"></pre></div>
+ <div id="result"></div>
+</section>
+<section id="history"><div class="card"><h2>Run history</h2><div id="hist" class="mut">Loading…</div></div><div id="hres"></div></section>
+<section id="memory"><div class="card"><h2>Memory</h2><p class="mut"><span id="memsrc"></span> Every generated prompt includes this text.</p><pre id="mem"></pre></div>
+ <div class="card" id="addcard"><label for="newm"><strong>Add an instruction</strong></label><textarea id="newm" rows="3" placeholder="e.g. Always use a sticky mobile CTA bar."></textarea><p><button class="p" id="addm">Save to private memory</button> <span id="mm" class="mut"></span></p></div></section>
+<section id="prefs"><div class="card"><h2>Your preferences</h2>
+ <p class="mut">Standing instructions that get added to every improvement prompt you generate here (e.g. “Dark theme, brand colour #0a7, always add a sticky mobile CTA”). They are stored <strong>only in this browser</strong> (localStorage) and sent with your own audit requests. They are never saved on the server, and other visitors cannot see or change them. Don't put secrets in here. Use Export to keep a copy or move to another browser.</p>
+ <label for="prefsText"><strong>Preferences</strong> (max 5000 characters)</label>
+ <textarea id="prefsText" rows="10" maxlength="5000" placeholder="- Brand: calm, high-contrast, light theme&#10;- Motion budget 2/10&#10;- Audience: ..."></textarea>
+ <p><span id="prefsCount" class="mut"></span></p>
+ <p><button class="p" id="prefsSave">Save in this browser</button> <button class="s" id="prefsExport">Export to file</button> <label class="s filebtn" for="prefsImport">Import from file</label><input id="prefsImport" type="file" accept=".md,.txt,.json,text/plain,application/json" hidden> <button class="s" id="prefsClear">Clear</button> <span id="prefsMsg" class="mut" role="status"></span></p></div></section>
+</main>
+<script src="/app.js"></script></body></html>

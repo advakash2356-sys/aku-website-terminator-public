@@ -1,0 +1,9 @@
+node_modules
+out
+.git
+*.tgz
+.tmp
+.env
+.env.*
+memory/MEMORY.private.md
+memory/runs.json
